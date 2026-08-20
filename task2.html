@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NorthBridge Tech Summit 2026</title>
+  </head>
+  <body>
+    <header>
+      <h1>NorthBridge Tech Summit <abbr title="2026">'26</abbr></h1>
+      <p>
+        Three days of talks, workshops, and networking &mdash;
+        <time datetime="2026-10-14">October 14</time> to
+        <time datetime="2026-10-16">October 16, 2026</time>
+      </p>
+
+      <nav>
+        <ul>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#register">Register</a></li>
+          <li><a href="#news">News</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="schedule">
+        <h2>Schedule</h2>
+        <p>
+          Below is an overview of the three-day event. Some sessions span
+          multiple time slots or rooms.
+        </p>
+
+        <table border="1">
+          <caption>
+            Day 1 &mdash; October 14
+          </caption>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Room A</th>
+              <th>Room B</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>9:00 AM</td>
+              <td colspan="2">Opening Keynote (All Attendees)</td>
+            </tr>
+            <tr>
+              <td>10:30 AM</td>
+              <td>Intro to Web Accessibility</td>
+              <td rowspan="2">Hands-on Workshop: APIs</td>
+            </tr>
+            <tr>
+              <td>12:00 PM</td>
+              <td>Panel: The Future of Browsers</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Session Tracks</h3>
+        <ul>
+          <li>
+            Frontend
+            <ul>
+              <li>Accessibility</li>
+              <li>Performance</li>
+            </ul>
+          </li>
+          <li>
+            Backend
+            <ul>
+              <li>Databases</li>
+              <li>APIs</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="speakers">
+        <h2>Featured Speakers</h2>
+
+        <dl>
+          <dt>Dr. Amara Solis</dt>
+          <dd>
+            Lead researcher in <mark>human-computer interaction</mark> at
+            Northbridge University.
+          </dd>
+
+          <dt>Kenji Watanabe</dt>
+          <dd>Principal engineer, previously at two Fortune 500 companies.</dd>
+        </dl>
+
+        <p>
+          Read the abstract for Dr. Solis's talk (originally published in
+          <cite>ACM Digital Library</cite>):
+        </p>
+        <blockquote cite="https://example.com/abstract">
+          <p>Interfaces should adapt to people, not the other way around.</p>
+        </blockquote>
+      </section>
+
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+          <summary>Is there a virtual attendance option?</summary>
+          <p>Yes, a livestream pass is available at checkout.</p>
+        </details>
+
+        <details>
+          <summary>What is included in the ticket price?</summary>
+          <p>All sessions, workshop materials, and daily lunch are included.</p>
+        </details>
+
+        <p>
+          Chemical formula for the coffee we'll be serving: H<sub>2</sub>O plus
+          caffeine (C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>).
+          Attendance rating: 10<sup>2</sup>% recommended.
+        </p>
+      </section>
+
+      <section id="register">
+        <h2>Registration</h2>
+
+        <form action="#" method="post">
+          <label for="fullname">Full Name:</label><br />
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            required
+          /><br /><br />
+
+          <label for="dob">Date of Birth:</label><br />
+          <input type="date" id="dob" name="dob" /><br /><br />
+
+          <label for="tickets">Number of Tickets:</label><br />
+          <input
+            type="number"
+            id="tickets"
+            name="tickets"
+            min="1"
+            max="10"
+            value="1"
+          /><br /><br />
+
+          <label for="budget">Budget per ticket ($):</label><br />
+          <input
+            type="range"
+            id="budget"
+            name="budget"
+            min="50"
+            max="500"
+            step="10"
+          /><br /><br />
+
+          <label for="phone">Phone:</label><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="123-456-7890"
+          /><br /><br />
+
+          <label for="website">Personal/Company Website:</label><br />
+          <input
+            type="url"
+            id="website"
+            name="website"
+            placeholder="https://example.com"
+          /><br /><br />
+
+          <label for="city">City:</label><br />
+          <input type="text" id="city" name="city" list="cityOptions" />
+          <datalist id="cityOptions">
+            <option value="Nairobi"></option>
+            <option value="London"></option>
+            <option value="Toronto"></option>
+            <option value="Singapore"></option></datalist
+          ><br /><br />
+
+          <label for="resume">Upload your badge photo:</label><br />
+          <input
+            type="file"
+            id="resume"
+            name="resume"
+            accept="image/*"
+          /><br /><br />
+
+          <label for="ticketType">Ticket Type:</label><br />
+          <select id="ticketType" name="ticketType">
+            <optgroup label="In Person">
+              <option value="standard">Standard</option>
+              <option value="vip">VIP</option>
+            </optgroup>
+            <optgroup label="Remote">
+              <option value="livestream">Livestream</option>
+            </optgroup></select
+          ><br /><br />
+
+          <input type="checkbox" id="terms" name="terms" required />
+          <label for="terms">I agree to the terms and conditions</label
+          ><br /><br />
+
+          <input type="submit" value="Register Now" />
+          <input type="reset" value="Clear Form" />
+        </form>
+      </section>
+
+      <section id="news">
+        <h2>Latest News</h2>
+
+        <article>
+          <h3>Early Bird Pricing Extended</h3>
+          <p><time datetime="2026-07-20">July 20, 2026</time></p>
+          <p>
+            Due to demand, early bird pricing has been extended by one week.
+          </p>
+        </article>
+
+        <article>
+          <h3>New Keynote Speaker Announced</h3>
+          <p><time datetime="2026-07-05">July 5, 2026</time></p>
+          <p>
+            We're excited to welcome an additional keynote speaker this year.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <aside>
+      <h3>Venue Preview</h3>
+      <video controls width="400">
+        <source src="venue-tour.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <h3>Conference Jingle</h3>
+      <audio controls>
+        <source src="jingle.mp3" type="audio/mpeg" />
+        Your browser does not support the audio tag.
+      </audio>
+    </aside>
+
+    <footer>
+      <address>
+        Questions? Contact us at
+        <a href="mailto:info@northbridgesummit.example"
+          >info@northbridgesummit.example</a
+        ><br />
+        123 Conference Way, Nairobi, Kenya
+      </address>
+      <p>&copy; 2026 NorthBridge Tech Summit. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

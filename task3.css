@@ -1,0 +1,171 @@
+/* ===== Global resets / base styling ===== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #fdf6ec;
+  color: #3b2f2f;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+/* ===== Header ===== */
+.site-header {
+  background-color: #6b4226;
+  color: #fdf6ec;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 6px solid #d99a5b;
+}
+
+.site-header h1 {
+  margin: 0 0 5px 0;
+  font-size: 36px;
+}
+
+.site-header p {
+  margin: 0;
+  font-style: italic;
+  color: #f0dcc0;
+}
+
+/* ===== Nav ===== */
+.site-nav {
+  margin-top: 20px;
+}
+
+.nav-link {
+  display: inline-block;
+  background-color: #d99a5b;
+  color: #3b2f2f;
+  text-decoration: none;
+  padding: 10px 18px;
+  margin: 0 8px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+.nav-link:hover {
+  border: 2px solid #3b2f2f;
+  background-color: #e8b47f;
+}
+
+/* ===== Hero ===== */
+.hero {
+  background-color: #f0dcc0;
+  padding: 50px 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+  color: #6b4226;
+}
+
+/* ===== Menu section / cards ===== */
+.menu-section {
+  padding: 0 20px 40px 20px;
+  text-align: center;
+}
+
+.card-row {
+  margin-top: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: 220px;
+  background-color: #ffffff;
+  border: 1px solid #d9c7ae;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 10px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #6b4226;
+}
+
+.card .price {
+  font-weight: bold;
+  color: #d99a5b;
+  font-size: 18px;
+}
+
+.card.featured {
+  background-color: #fff4e6;
+  border: 2px solid #d99a5b;
+}
+
+/* ===== About section ===== */
+.about-section {
+  background-color: #efe3d0;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+}
+
+.about-section p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ===== Order form ===== */
+.order-section {
+  padding: 0 20px 40px 20px;
+  text-align: center;
+}
+
+.order-form {
+  display: inline-block;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #d9c7ae;
+  padding: 25px;
+  border-radius: 6px;
+}
+
+.order-form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.order-form input[type="text"],
+.order-form select,
+.order-form textarea {
+  padding: 8px;
+  border: 1px solid #b5a48c;
+  border-radius: 4px;
+  width: 220px;
+}
+
+.submit-btn {
+  margin-top: 18px;
+  background-color: #6b4226;
+  color: #fdf6ec;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  background-color: #3b2f2f;
+  color: #f0dcc0;
+  text-align: center;
+  padding: 15px;
+}
